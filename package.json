@@ -1,14 +1,17 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.1"
   },
   "scripts": {
-    "dev": "",
+    "dev": "nodemon --watch ./index.ts --exec ts-node ./dev.ts",
     "tests": "ava",
     "build": "tsc index.ts",
     "start": "node index.js"
   },
   "devDependencies": {
+    "@types/node": "^20.11.30",
+    "nodemon": "^3.1.0",
     "typescript": "^5.4.3"
   }
 }
