@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^4.19.1"
+  },
+  "scripts": {
+    "dev": "",
+    "tests": "ava",
+    "build": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}
